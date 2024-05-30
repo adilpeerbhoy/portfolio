@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    color: #edf0f1;
+}
+
+li, a, button{
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100%;
+    padding: 15px;
+}
+
+.logo{
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.navbar-pages{
+    list-style: none;
+    
+}
+
+.navbar-pages li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar-pages li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-pages li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+.navbar-socials{
+    list-style: none;
+}
+
+.navbar-socials li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar-socials li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-socials li a:hover{
+    color: #0088a9;
+}
+
+
+.container {
+    box-sizing: border-box;
+    border-style: dotted;
+    padding: 20px;
+    width: 100%;
+}
+
+/* .item {
+    width: 450px;
+    height: 450px;
+    display: inline;
+} */
+
+.icon {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    /* column-gap: 50px;
+    place-self: center stretch; */
+    
+}
+
+.tag{
+    font-family: Raleway;
+    font-size: 18px;
+    background-color: #0088a9;
+}
+
+.heading{
+    font-family: Raleway;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.oneLiner{
+    font-family: Raleway;
+    text-wrap: wrap;
+    font-size: 20px;
+}
+
+.profilePhoto {
+    box-sizing: border-box;
+    display: block;
+    flex-basis: auto;
+    width: 450px;
+    height: 450px;
+}
+
+.profile {
+    width: 450px;
+    height: 450px;
+}
+
+.bioContent{
+    box-sizing: border-box;
+    display: block;
+    flex-basis: auto;
+    flex-wrap: wrap;
+}
+.intro{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-size-adjust: 100%; 
+    padding: 32px;
+    width: calc(70%);
+    margin: 0 auto;
+}
+
+.row{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row h2{
+    font-family: Raleway;
+    font-size: 40px;
+    text-align: start;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.row h2::after {
+    background-color: #edf0f1;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 700px;
+}
